@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: skyblue
+;">
     <h1>login form</h1>
     <form action="">
-        first name: <input type="text" name="fname">
+        first name: <input type="text" name="fname" id="f1">
         <br><br>
         last name: <input type="text" name="lname">
         <br><br>
@@ -18,7 +19,23 @@
         email: <input type="email" name="email">
         <br><br>
         password: <input type="password" name="pasw">
+        <br><br>
+        gender: <select name="gender" >
+            <option value="">male</option>
+            <option value="">female</option>
+            <option value="">other</option>
+        </select>
     </form>
+    <style>
+        form{
+            font-size: 30px;
+            text-transform:uppercase ;
+            
+        }
+        #f1{
+            color: red;
+        }
+    </style>
     
 </body>
 </html>
